@@ -1,0 +1,47 @@
+html {
+  z-index: 99999;
+  scroll-behavior: smooth;
+}
+.hero-section {
+  padding-top: 8rem;
+  background-color: #ecf4d6;
+  height: 650px;
+}
+.hero-section .text-center {
+  padding: 1rem 3rem;
+  text-align: center;
+  /* background-color: red; */
+  display: block;
+  align-items: center;
+}
+.aboutme {
+  padding-top: 8rem;
+  background-color: #637e76;
+  height: 700px;
+  color: #fff;
+}
+.aboutme span {
+  color: #000;
+}
+
+#gallery {
+  height: 700px;
+  padding-top: 4rem;
+}
+#gallery .container .row img {
+  width: 200px;
+  height: 180px;
+  object-fit: cover;
+  margin: 4px;
+  padding: 2rem;
+}
+.navbar {
+  position: fixed;
+  width: 100%;
+}
+#contact {
+  height: 500px;
+}
+#contact h2 {
+  padding-top: 2rem;
+}
